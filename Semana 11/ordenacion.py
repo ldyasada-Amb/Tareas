@@ -1,0 +1,11 @@
+matriz = [
+    [1,3,2],
+    [5,4,6],
+    [9,8,7]
+]
+
+for fila in matriz:
+    for columna in fila:
+        print(columna)
+       
+     
