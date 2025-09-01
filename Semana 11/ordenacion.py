@@ -4,8 +4,18 @@ matriz = [
     [9,8,7]
 ]
 
-for fila in matriz:
-    for columna in fila:
-        print(columna)
+print(matriz)
+for j in range(len(matriz)): # Imprime la matriz rdenada
+    matriz[j].sort()
+print(matriz)
+
+print("-"*30)
+
+print(matriz)
+for j in range(len(matriz)): # Imprime la matriz rdenada
+    for h in range(len(matriz)):
+        (matriz[h]).sort()
+print(matriz[j][h])
+
        
      
